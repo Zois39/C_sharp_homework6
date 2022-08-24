@@ -2,11 +2,11 @@
 //0, 7, 8, -2, -2 -> 2
 //1, -7, 567, 89, 223-> 3   ***4? :)***
 
-/*
+
 int ReadNumbers()
 {
     int count = 0;
-    for(string? str = null;;)
+    for(string? str = string.Empty;;)
     {
         Console.WriteLine("Input number: ");
         str = Console.ReadLine();
@@ -17,7 +17,7 @@ int ReadNumbers()
     }
 }
 Console.WriteLine($"Count positive numbers: {ReadNumbers()}");
-*/
+
 
 
 //Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
