@@ -5,6 +5,7 @@
 /*
 double ReadNumbers()
 {
+    // count positive numbers
     double count = 0;
     for(string? str = string.Empty;;)
     {
@@ -26,6 +27,7 @@ Console.WriteLine($"Count positive numbers: {ReadNumbers()}");
 /*
 double[] Coordinates (double k1, double b1, double k2, double b2)
 {
+    //return array with coordinates [x, y] intersection
     double[] coorDot = new double[2];
     coorDot[0] = (b2 - b1) / (k1 - k2);
     coorDot[1] = k1 * coorDot[0] + b1;
@@ -33,6 +35,7 @@ double[] Coordinates (double k1, double b1, double k2, double b2)
 }
 double ValueCoeff (string name)
 {
+    //queries the coefficient and returns the entered value
     double coeff;
     Console.Write($"Input number {name}: ");
     coeff = Convert.ToInt32(Console.ReadLine());
